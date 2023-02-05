@@ -1,0 +1,54 @@
+{
+  // color Theme
+  // notice: if you want use what use, then you have to install Atom One Dark Extension
+  "workbench.colorTheme": "Atom One Dark",
+
+  // icon theme
+  // notice: if you want use what use, then you have to install material-icon-theme Extension
+  "workbench.iconTheme": "material-icon-theme",
+
+  // Set the font size
+  "editor.fontSize": 16,
+
+  // Set the font size for terminal
+  "terminal.integrated.fontSize": 14,
+
+  // Set the fontWeight
+  "editor.fontWeight": "bold",
+
+  // Set the font - must install JetBrainsMono nerd fonts
+  "editor.fontFamily": "'JetBrainsMono NFM', Consolas, 'Courier New', monospace",
+
+  // Set the font for terminal - must install JetBrainsMono nerd fonts
+  "terminal.integrated.fontFamily": "'JetBrainsMono NFM','monospace'",
+
+  // Turn on font ligatures
+  "editor.fontLigatures": true,
+
+  // Set letter spacing
+  "editor.letterSpacing": 0.4,
+
+  // Enable smooth scrolling in the editor
+  "editor.smoothScrolling": true,
+
+  // Controls cursorStyle
+  "editor.cursorStyle": "block",
+
+  // Controls wordWrap
+  "editor.wordWrap": "on",
+
+  // set default Formatter(prettier)  
+  // notice: if you want use what use, then you have to install prettier Extension
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+
+  //location of side bar
+  "workbench.sideBar.location": "right",
+
+  // add root path to the title
+  "window.title": "${dirty}${activeEditorShort}${separator}${rootPath}${separator}${appName}",
+
+  //auto fetch for git
+  "git.confirmSync": false,
+  "git.autofetch": true
+}
